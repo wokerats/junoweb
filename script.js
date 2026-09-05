@@ -41,6 +41,7 @@ const subtitles = [
     "have you brushed your teeth today ?",
     "as seen in the rio 2016 olympic games",
     "all your website is belong to us",
+    "nyan cat was a hero and nobody believed in them except me",
     '"King Arthur came a lot, right?" - philomena cunk',
     "2 Player Verity Tycoon",
     "she said hello,,,, to hello,,, neighbor !!!",
