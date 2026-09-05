@@ -1,11 +1,77 @@
+
 body {
-    font-family: Consolas, monospace;
-    font-size: 1rem;
-    text-align: center;
+  min-height: 100vh;
+  color: rgb(138, 197, 192);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  background: linear-gradient(to bottom, #041818, #010807);
+  margin: 0;
 }
 
+
 .title{
-    font-size: 3rem;
-    letter-spacing: 2px;
-    font-family: Impact, sans-serif;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 0px;
+  color: coral;
+}
+
+.subtitle {
+  margin-top: 0px;
+}
+
+div{
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.site {
+  max-width: 800px;
+}
+
+.stack {
+  flex-direction: column;
+}
+.site > * {
+  border: 5px solid;
+  border-image: linear-gradient(to bottom, coral, rgb(184, 51, 2)) 1;
+  background: url("images/backgrounds/stars.png") repeat;
+  margin: 20px 0;
+  padding: 5px 20px;
+}
+
+h3{
+  font-size: 1rem;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rightalign{
+  text-align: right;
+}
+
+.center{
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+a:visited {
+  color: inherit;
 }
